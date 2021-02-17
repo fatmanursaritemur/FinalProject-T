@@ -1,0 +1,850 @@
+2021-02-17 15:16:26.306  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 20072 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-17 15:16:26.318 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-17 15:16:26.319  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-17 15:16:26.396  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-17 15:16:26.398  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-17 15:16:27.507  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-17 15:16:27.632  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 5 JPA repository interfaces.
+2021-02-17 15:16:28.686  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-17 15:16:28.695  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:16:28.695  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-17 15:16:28.696  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-17 15:16:28.783  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-17 15:16:28.784  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2384 ms
+2021-02-17 15:16:28.851  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-17 15:16:29.051  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-17 15:16:29.057  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-17 15:16:30.434  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-17 15:16:30.492  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-17 15:16:31.158  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-17 15:16:31.341  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-17 15:16:31.364 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-17 15:16:31.456 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2021-02-17 15:16:31.522 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-17 15:16:31.540 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-17 15:16:31.717  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:16:32.210  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-17 15:16:32.225  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 6.571 seconds (JVM running for 10.284)
+2021-02-17 15:17:31.860  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 11172 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-17 15:17:31.866 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-17 15:17:31.867  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-17 15:17:31.914  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-17 15:17:31.915  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-17 15:17:32.655  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-17 15:17:32.731  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2021-02-17 15:17:33.560  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-17 15:17:33.567  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:17:33.568  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-17 15:17:33.569  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-17 15:17:33.653  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-17 15:17:33.653  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1737 ms
+2021-02-17 15:17:33.710  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-17 15:17:33.854  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-17 15:17:33.860  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-17 15:17:34.984  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-17 15:17:35.051  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-17 15:17:35.706  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-17 15:17:35.897  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-17 15:17:35.918 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-17 15:17:35.988 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2021-02-17 15:17:36.042 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-17 15:17:36.056 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-17 15:17:36.253  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:17:36.682  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-17 15:17:36.692  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 5.229 seconds (JVM running for 9.638)
+2021-02-17 15:18:50.820  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-17 15:18:50.821  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-17 15:18:50.822 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-17 15:18:50.822 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-17 15:18:50.822 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-17 15:18:50.823 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@39ffdd56
+2021-02-17 15:18:50.823 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@23d2144
+2021-02-17 15:18:50.823 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-17 15:18:50.823  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-02-17 15:18:50.827 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : GET "/favicon.ico", parameters={}
+2021-02-17 15:18:50.836 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2021-02-17 15:18:50.841 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-02-17 15:18:50.843 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-17 15:18:50.848 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for GET "/error", parameters={}
+2021-02-17 15:18:50.851 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-02-17 15:18:50.894 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:18:50.895 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Feb 17 15:18:50 EET 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-02-17 15:18:50.972 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 404
+2021-02-17 15:42:46.589 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:42:46.591 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:42:46.682 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=2)]
+2021-02-17 15:42:46.928 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=2) 
+2021-02-17 15:42:46.928 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 208 ms
+2021-02-17 15:42:46.982 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:42:46.982 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=2)]
+2021-02-17 15:42:46.985 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:42:58.051 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:42:58.051 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:42:58.052 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:42:58.072 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=5) 
+2021-02-17 15:42:58.072 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 18 ms
+2021-02-17 15:42:58.076 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:42:58.076 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=5)]
+2021-02-17 15:42:58.078 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:43:04.303 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:43:04.303 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:43:04.304 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=1)]
+2021-02-17 15:43:04.311 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:43:04.312 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=6)]
+2021-02-17 15:43:04.313 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:43:04.309 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=6) 
+2021-02-17 15:43:04.309 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 3 ms
+2021-02-17 15:43:20.766 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:43:20.766 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:43:20.767 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=QWW, productId=14), quantity=3)]
+2021-02-17 15:43:20.771 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=QWW, productId=14), quantity=3) 
+2021-02-17 15:43:20.771 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 3 ms
+2021-02-17 15:43:20.784 ERROR DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.h.e.j.s.SqlExceptionHelper             : HATA (ERROR): "cards" tablosu üzende işlem "fk_cards_customers" foreign key constrainti ihlal ediyor
+  Ayrıntı: "customers" tablosunda (customer_id)=(QWW) anahtarı mevcut değildir.
+2021-02-17 15:43:20.799 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleDataIntegrityViolationException(DataIntegrityViolationException)
+2021-02-17 15:43:20.809 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:43:20.811 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-17T15:43:20.808543900, message=:  customers  tablosunda (customer_id)=(QWW) anaht (truncated)...]
+2021-02-17 15:43:20.814  WARN DESKTOP-EUOD8D0 --- [io-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-02-17 15:43:20.815 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 409 CONFLICT
+2021-02-17 15:43:41.808 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/FAMIA", parameters={}
+2021-02-17 15:43:41.809 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 15:43:41.860 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.b.c.LoggingHandler                 : Method Return value : [] 
+2021-02-17 15:43:41.860 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 35 ms
+2021-02-17 15:43:41.865 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:43:41.866 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2021-02-17 15:43:41.869 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:43:56.302 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/FISSA", parameters={}
+2021-02-17 15:43:56.303 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 15:43:56.308 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:43:56.307 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=4), Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=3)] 
+2021-02-17 15:43:56.308 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=4), Card(id=CardIdentity(customerId=F (truncated)...]
+2021-02-17 15:43:56.307 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 3 ms
+2021-02-17 15:43:56.310 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:44:07.864 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/CENTC", parameters={}
+2021-02-17 15:44:07.865 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-17 15:44:07.882 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotExistByPropertyExeption(NotExistByPropertyExeption)
+2021-02-17 15:44:07.882 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:44:07.882 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-17T15:44:07.882761500, message=CENTC değerindeki customerid özelliğine sahip Prod (truncated)...]
+2021-02-17 15:44:07.884  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.northwind.exceptions.NotExistByPropertyExeption: CENTC değerindeki customerid özelliğine sahip Product bulunamadı]
+2021-02-17 15:44:07.885 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-17 15:44:07.880 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : An exception has been thrown in deleteCardsByCustomer ()
+2021-02-17 15:44:07.881 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Cause : {0}
+2021-02-17 15:44:43.804 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/BONAP", parameters={}
+2021-02-17 15:44:43.805 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-17 15:44:43.818 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 15:44:43.818 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 12 ms
+2021-02-17 15:44:43.829 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:44:43.829 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 15:44:43.830 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:49:17.029 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:49:17.030 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:49:17.031 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:49:17.043 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3) 
+2021-02-17 15:49:17.043 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 6 ms
+2021-02-17 15:49:17.048 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:49:17.049 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:49:17.050 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:49:18.619 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:49:18.619 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:49:18.620 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:49:18.633 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=6) 
+2021-02-17 15:49:18.633 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 4 ms
+2021-02-17 15:49:18.636 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:49:18.636 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=6)]
+2021-02-17 15:49:18.638 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:49:49.914 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/BONAP", parameters={}
+2021-02-17 15:49:49.914 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-17 15:49:49.940 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=6)] 
+2021-02-17 15:49:49.940 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 3 ms
+2021-02-17 15:49:49.950 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=14, productName=Tofu, categoryId=7, unitPrice=23.25, quantityPerUnit=40 - 100 g pkgs., discontinued=0) 
+2021-02-17 15:49:49.950 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 9 ms
+2021-02-17 15:49:49.972 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=174, productId=14), unitPrice=23.25, quantity=6, discount=12345) 
+2021-02-17 15:49:49.972 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 21 ms
+2021-02-17 15:49:49.975 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 15:49:49.975 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 3 ms
+2021-02-17 15:49:49.975 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 15:49:49.975 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 58 ms
+2021-02-17 15:49:49.987 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:49:49.987 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 15:49:49.987 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:53:21.299  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 14052 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-17 15:53:21.307 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-17 15:53:21.308  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-17 15:53:21.350  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-17 15:53:21.351  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-17 15:53:22.010  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-17 15:53:22.102  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 5 JPA repository interfaces.
+2021-02-17 15:53:22.819  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-17 15:53:22.828  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:53:22.828  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-17 15:53:22.828  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-17 15:53:22.916  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-17 15:53:22.916  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1564 ms
+2021-02-17 15:53:22.974  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-17 15:53:23.112  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-17 15:53:23.118  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-17 15:53:24.598  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-17 15:53:24.669  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-17 15:53:25.333  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-17 15:53:25.523  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-17 15:53:25.545 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-17 15:53:25.609 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2021-02-17 15:53:25.666 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-17 15:53:25.682 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-17 15:53:25.870  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:53:26.324  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-17 15:53:26.340  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 5.525 seconds (JVM running for 8.603)
+2021-02-17 15:53:40.499  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-17 15:53:40.499  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-17 15:53:40.499 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-17 15:53:40.499 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-17 15:53:40.499 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-17 15:53:40.500 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ba06dcd
+2021-02-17 15:53:40.500 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3b1e69e0
+2021-02-17 15:53:40.501 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-17 15:53:40.501  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-02-17 15:53:40.517 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:53:40.520 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:53:40.595 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:53:40.794 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3) 
+2021-02-17 15:53:40.794 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 180 ms
+2021-02-17 15:53:40.818 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:53:40.818 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:53:40.832 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:53:46.632 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/BONAP", parameters={}
+2021-02-17 15:53:46.633 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-17 15:53:46.686 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)] 
+2021-02-17 15:53:46.686 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 27 ms
+2021-02-17 15:53:46.705 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=14, productName=Tofu, categoryId=7, unitPrice=23.25, quantityPerUnit=40 - 100 g pkgs., discontinued=0) 
+2021-02-17 15:53:46.705 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 18 ms
+2021-02-17 15:53:46.731 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=175, productId=14), unitPrice=27.25, quantity=0, discount=12345) 
+2021-02-17 15:53:46.731 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 25 ms
+2021-02-17 15:53:46.752 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 15:53:46.752 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 21 ms
+2021-02-17 15:53:46.752 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 15:53:46.752 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 110 ms
+2021-02-17 15:53:46.768 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:53:46.768 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 15:53:46.768 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:54:58.185  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 12488 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-17 15:54:58.191 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-17 15:54:58.192  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-17 15:54:58.240  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-17 15:54:58.241  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-17 15:54:59.330  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-17 15:54:59.433  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 5 JPA repository interfaces.
+2021-02-17 15:55:00.862  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-17 15:55:00.869  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:55:00.870  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-17 15:55:00.870  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-17 15:55:00.961  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-17 15:55:00.961  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2719 ms
+2021-02-17 15:55:01.167  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-17 15:55:01.435  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-17 15:55:01.441  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-17 15:55:02.833  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-17 15:55:02.892  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-17 15:55:03.514  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-17 15:55:03.768  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-17 15:55:03.792 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-17 15:55:03.868 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2021-02-17 15:55:04.177 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-17 15:55:04.208 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-17 15:55:04.424  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-17 15:55:04.850  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-17 15:55:04.860  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 7.117 seconds (JVM running for 10.461)
+2021-02-17 15:55:27.098  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-17 15:55:27.098  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-17 15:55:27.098 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-17 15:55:27.098 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-17 15:55:27.099 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-17 15:55:27.099 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@74b533e
+2021-02-17 15:55:27.100 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@73a22aa9
+2021-02-17 15:55:27.100 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-17 15:55:27.100  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-02-17 15:55:27.119 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:55:27.121 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:55:27.194 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:55:27.424 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3) 
+2021-02-17 15:55:27.424 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 213 ms
+2021-02-17 15:55:27.448 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:55:27.448 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3)]
+2021-02-17 15:55:27.463 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:55:35.182 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 15:55:35.182 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 15:55:35.183 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=BONAP, productId=23), quantity=3)]
+2021-02-17 15:55:35.189 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=BONAP, productId=23), quantity=3) 
+2021-02-17 15:55:35.189 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 4 ms
+2021-02-17 15:55:35.192 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:55:35.193 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=BONAP, productId=23), quantity=3)]
+2021-02-17 15:55:35.194 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 15:55:40.568 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/BONAP", parameters={}
+2021-02-17 15:55:40.570 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-17 15:55:40.645 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=BONAP, productId=14), quantity=3), Card(id=CardIdentity(customerId=BONAP, productId=23), quantity=3)] 
+2021-02-17 15:55:40.645 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 28 ms
+2021-02-17 15:55:40.674 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=14, productName=Tofu, categoryId=7, unitPrice=23.25, quantityPerUnit=40 - 100 g pkgs., discontinued=0) 
+2021-02-17 15:55:40.674 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 27 ms
+2021-02-17 15:55:40.683 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=23, productName=Tunnbröd, categoryId=5, unitPrice=9.0, quantityPerUnit=12 - 250 g pkgs., discontinued=0) 
+2021-02-17 15:55:40.683 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 8 ms
+2021-02-17 15:55:40.701 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=176, productId=14), unitPrice=26.25, quantity=3, discount=12345) 
+2021-02-17 15:55:40.701 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 17 ms
+2021-02-17 15:55:40.703 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=176, productId=23), unitPrice=10.0, quantity=3, discount=12345) 
+2021-02-17 15:55:40.703 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 2 ms
+2021-02-17 15:55:40.719 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 15:55:40.719 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 16 ms
+2021-02-17 15:55:40.719 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 15:55:40.719 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 132 ms
+2021-02-17 15:55:40.734 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 15:55:40.734 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 15:55:40.734 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:10:09.345 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/5/3", parameters={}
+2021-02-17 17:10:09.391 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 17:10:09.562 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=3) 
+2021-02-17 17:10:09.563 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 74 ms
+2021-02-17 17:10:09.565 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 17:10:09.565 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 0 ms
+2021-02-17 17:10:09.571 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:10:09.573 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 17:10:09.574 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:24:03.844 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/5/7", parameters={}
+2021-02-17 17:24:03.845 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 17:24:03.880 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=3) 
+2021-02-17 17:24:03.880 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 7 ms
+2021-02-17 17:24:03.882 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 17:24:03.882 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 0 ms
+2021-02-17 17:24:03.939 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:24:03.939 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 17:24:03.940 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:24:54.187  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 8296 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-17 17:24:54.209 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-17 17:24:54.213  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-17 17:24:54.297  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-17 17:24:54.301  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-17 17:24:56.383  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-17 17:24:56.613  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 209 ms. Found 5 JPA repository interfaces.
+2021-02-17 17:24:59.354  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-17 17:24:59.371  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-17 17:24:59.371  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-17 17:24:59.372  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-17 17:24:59.555  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-17 17:24:59.555  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5251 ms
+2021-02-17 17:24:59.685  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-17 17:24:59.944  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-17 17:24:59.969  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-17 17:25:03.242  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-17 17:25:03.386  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-17 17:25:04.592  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-17 17:25:05.182  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-17 17:25:05.219 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-17 17:25:05.355 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2021-02-17 17:25:05.469 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-17 17:25:05.539 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-17 17:25:06.244  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-17 17:25:07.031  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-17 17:25:07.044  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 13.89 seconds (JVM running for 18.062)
+2021-02-17 17:25:40.684  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-17 17:25:40.684  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-17 17:25:40.685 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-17 17:25:40.685 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-17 17:25:40.685 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-17 17:25:40.688 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@19990f9b
+2021-02-17 17:25:40.688 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6052eb9b
+2021-02-17 17:25:40.689 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-17 17:25:40.689  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2021-02-17 17:25:40.696 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/5/34", parameters={}
+2021-02-17 17:25:40.705 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 17:25:40.888 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=7) 
+2021-02-17 17:25:40.888 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 122 ms
+2021-02-17 17:25:40.932 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=34) 
+2021-02-17 17:25:40.932 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 23 ms
+2021-02-17 17:25:41.092 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:25:41.099 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 17:25:41.105 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:26:37.710  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 10480 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-17 17:26:37.723 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-17 17:26:37.724  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-17 17:26:37.772  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-17 17:26:37.774  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-17 17:26:38.681  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-17 17:26:38.769  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 5 JPA repository interfaces.
+2021-02-17 17:26:39.734  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-17 17:26:39.744  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-17 17:26:39.745  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-17 17:26:39.745  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-17 17:26:39.853  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-17 17:26:39.853  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2078 ms
+2021-02-17 17:26:39.922  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-17 17:26:40.204  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-17 17:26:40.210  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-17 17:26:41.690  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-17 17:26:41.759  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-17 17:26:42.593  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-17 17:26:42.803  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-17 17:26:42.827 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-17 17:26:42.923 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2021-02-17 17:26:42.984 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-17 17:26:42.999 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-17 17:26:43.282  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-17 17:26:43.792  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-17 17:26:43.803  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 6.684 seconds (JVM running for 10.227)
+2021-02-17 17:27:09.675  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-17 17:27:09.676  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-17 17:27:09.676 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-17 17:27:09.677 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-17 17:27:09.677 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-17 17:27:09.690 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@d011c4f
+2021-02-17 17:27:09.693 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6bba3c5f
+2021-02-17 17:27:09.694 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-17 17:27:09.707  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 30 ms
+2021-02-17 17:27:09.783 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/3/1", parameters={}
+2021-02-17 17:27:09.794 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 17:27:10.040 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=4) 
+2021-02-17 17:27:10.040 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 194 ms
+2021-02-17 17:27:10.110 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=1) 
+2021-02-17 17:27:10.110 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 39 ms
+2021-02-17 17:27:10.259 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:27:10.263 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=1)]
+2021-02-17 17:27:10.336 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:27:15.915 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/3/5", parameters={}
+2021-02-17 17:27:15.916 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 17:27:15.920 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=1) 
+2021-02-17 17:27:15.920 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 2 ms
+2021-02-17 17:27:15.922 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=5) 
+2021-02-17 17:27:15.922 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 1 ms
+2021-02-17 17:27:15.924 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:27:15.925 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=5)]
+2021-02-17 17:27:15.928 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:38:15.716 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 17:38:15.718 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 17:38:15.790 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=3)]
+2021-02-17 17:38:16.092 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=3) 
+2021-02-17 17:38:16.092 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 271 ms
+2021-02-17 17:38:16.106 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:38:16.106 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=3)]
+2021-02-17 17:38:16.107 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:38:21.482 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 17:38:21.483 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 17:38:21.486 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.m.HandlerMethod                    : Could not resolve parameter [0] in public com.example.northwind.entities.concretes.Card com.example.northwind.api.controllers.CardController.save(com.example.northwind.entities.concretes.Card) throws com.example.northwind.exceptions.NotFoundException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 7, column: 2]
+2021-02-17 17:38:21.488 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleException(Exception, WebRequest)
+2021-02-17 17:38:21.492 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : No match for [*/*], supported: []
+2021-02-17 17:38:21.493  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 7, column: 2]]
+2021-02-17 17:38:21.493 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 400 BAD_REQUEST
+2021-02-17 17:38:25.458 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 17:38:25.459 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 17:38:25.460 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=1)]
+2021-02-17 17:38:25.474 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:38:25.474 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=4)]
+2021-02-17 17:38:25.470 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=4) 
+2021-02-17 17:38:25.476 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:38:25.471 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 8 ms
+2021-02-17 17:38:32.962 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 17:38:32.963 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 17:38:32.966 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=5)]
+2021-02-17 17:38:32.978 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:38:32.975 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=9) 
+2021-02-17 17:38:32.975 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 4 ms
+2021-02-17 17:38:32.978 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=9)]
+2021-02-17 17:38:32.980 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:38:52.065 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/FISSA", parameters={}
+2021-02-17 17:38:52.067 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 17:38:52.209 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=34), Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=5)] 
+2021-02-17 17:38:52.209 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 118 ms
+2021-02-17 17:38:52.219 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:38:52.219 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=34), Card(id=CardIdentity(customerId= (truncated)...]
+2021-02-17 17:38:52.223 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:39:08.794 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/3/3", parameters={}
+2021-02-17 17:39:08.797 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 17:39:08.807 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 17:39:08.807 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=3)]
+2021-02-17 17:39:08.810 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 17:39:08.803 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=5) 
+2021-02-17 17:39:08.803 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 4 ms
+2021-02-17 17:39:08.804 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=3) 
+2021-02-17 17:39:08.804 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 1 ms
+2021-02-17 18:02:12.269 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 18:02:12.273 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 18:02:12.278 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=1)]
+2021-02-17 18:02:12.331 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:02:12.333 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=1)]
+2021-02-17 18:02:12.336 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:02:12.311 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=1) 
+2021-02-17 18:02:12.312 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 26 ms
+2021-02-17 18:02:20.609 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 18:02:20.609 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 18:02:20.610 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=5)]
+2021-02-17 18:02:20.631 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:02:20.631 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=6)]
+2021-02-17 18:02:20.633 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:02:20.628 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=6) 
+2021-02-17 18:02:20.628 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 14 ms
+2021-02-17 18:02:29.273 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 18:02:29.274 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 18:02:29.275 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=1)]
+2021-02-17 18:02:29.282 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:02:29.284 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=7)]
+2021-02-17 18:02:29.285 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:02:29.280 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=AROUT, productId=23), quantity=7) 
+2021-02-17 18:02:29.280 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 4 ms
+2021-02-17 18:02:47.198 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/3/7", parameters={}
+2021-02-17 18:02:47.200 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 18:02:47.221 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:02:47.224 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=7)]
+2021-02-17 18:02:47.226 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:02:47.212 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=3) 
+2021-02-17 18:02:47.212 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 6 ms
+2021-02-17 18:02:47.214 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=7) 
+2021-02-17 18:02:47.214 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 1 ms
+2021-02-17 18:03:07.493 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/COMMI", parameters={}
+2021-02-17 18:03:07.494 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 18:03:07.503 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:03:07.503 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=9)]]
+2021-02-17 18:03:07.505 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:03:07.502 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=9)] 
+2021-02-17 18:03:07.502 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 5 ms
+2021-02-17 18:06:05.007 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/FISSA", parameters={}
+2021-02-17 18:06:05.008 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-17 18:06:05.140 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=FISSA, productId=5), quantity=34), Card(id=CardIdentity(customerId=FISSA, productId=3), quantity=7)] 
+2021-02-17 18:06:05.140 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 26 ms
+2021-02-17 18:06:05.173 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=5, productName=Chef Anton's Gumbo Mix, categoryId=2, unitPrice=21.3500004, quantityPerUnit=36 boxes, discontinued=1) 
+2021-02-17 18:06:05.173 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 29 ms
+2021-02-17 18:06:05.177 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=3, productName=Aniseed Syrup, categoryId=2, unitPrice=10.0, quantityPerUnit=12 - 550 ml bottles, discontinued=0) 
+2021-02-17 18:06:05.177 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 2 ms
+2021-02-17 18:06:05.205 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=177, productId=5), unitPrice=24.3500004, quantity=34, discount=12345) 
+2021-02-17 18:06:05.205 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 28 ms
+2021-02-17 18:06:05.208 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=177, productId=3), unitPrice=13.0, quantity=7, discount=12345) 
+2021-02-17 18:06:05.208 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 3 ms
+2021-02-17 18:06:05.229 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 18:06:05.229 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 21 ms
+2021-02-17 18:06:05.229 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 18:06:05.229 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 216 ms
+2021-02-17 18:06:05.258 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:06:05.258 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 18:06:05.259 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:12:33.247 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 18:12:33.247 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 18:12:33.248 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=1)]
+2021-02-17 18:12:33.259 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:12:33.260 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=1)]
+2021-02-17 18:12:33.261 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:12:33.255 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=1) 
+2021-02-17 18:12:33.255 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 5 ms
+2021-02-17 18:12:35.389 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 18:12:35.390 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 18:12:35.391 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=1)]
+2021-02-17 18:12:35.401 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:12:35.402 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=2)]
+2021-02-17 18:12:35.398 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=2) 
+2021-02-17 18:12:35.399 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 7 ms
+2021-02-17 18:12:35.405 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:12:36.625 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 18:12:36.625 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 18:12:36.625 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=1)]
+2021-02-17 18:12:36.634 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:12:36.635 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=3)]
+2021-02-17 18:12:36.638 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:12:36.632 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=3) 
+2021-02-17 18:12:36.632 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 5 ms
+2021-02-17 18:12:56.205 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 18:12:56.205 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 18:12:56.206 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=5)]
+2021-02-17 18:12:56.221 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 18:12:56.221 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=5)]
+2021-02-17 18:12:56.223 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 18:12:56.218 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=5) 
+2021-02-17 18:12:56.218 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 10 ms
+2021-02-17 19:19:27.498 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:19:27.512 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:19:27.528 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=5)]
+2021-02-17 19:19:27.588 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=5) 
+2021-02-17 19:19:27.589 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 36 ms
+2021-02-17 19:19:27.613 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:19:27.614 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=5)]
+2021-02-17 19:19:27.619 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:19:34.232 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:19:34.232 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:19:34.233 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=1)]
+2021-02-17 19:19:34.284 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=6) 
+2021-02-17 19:19:34.284 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 23 ms
+2021-02-17 19:19:34.294 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:19:34.294 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=6)]
+2021-02-17 19:19:34.297 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:19:37.874 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:19:37.874 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:19:37.875 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=5)]
+2021-02-17 19:19:37.886 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:19:37.888 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=11)]
+2021-02-17 19:19:37.892 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:19:37.882 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=11) 
+2021-02-17 19:19:37.882 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 5 ms
+2021-02-17 19:19:45.940 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:19:45.940 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:19:45.941 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=WER, productId=33), quantity=5)]
+2021-02-17 19:19:45.946 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=WER, productId=33), quantity=5) 
+2021-02-17 19:19:45.946 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 3 ms
+2021-02-17 19:19:46.161 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.h.e.j.s.SqlExceptionHelper             : HATA (ERROR): "cards" tablosu üzende işlem "fk_cards_customers" foreign key constrainti ihlal ediyor
+  Ayrıntı: "customers" tablosunda (customer_id)=(WER) anahtarı mevcut değildir.
+2021-02-17 19:19:46.275 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleDataIntegrityViolationException(DataIntegrityViolationException)
+2021-02-17 19:19:46.348 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:19:46.356 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-17T19:19:46.309796700, message=:  customers  tablosunda (customer_id)=(WER) anaht (truncated)...]
+2021-02-17 19:19:46.392  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-02-17 19:19:46.393 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 409 CONFLICT
+2021-02-17 19:19:55.189 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/COMMI", parameters={}
+2021-02-17 19:19:55.190 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 19:19:55.198 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:19:55.198 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=9)]]
+2021-02-17 19:19:55.200 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:19:55.196 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=COMMI, productId=23), quantity=9)] 
+2021-02-17 19:19:55.196 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 4 ms
+2021-02-17 19:20:22.060 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/3/7", parameters={}
+2021-02-17 19:20:22.060 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 19:20:22.077 ERROR DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : An exception has been thrown in getCardById ()
+2021-02-17 19:20:22.078 ERROR DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Cause : {0}
+2021-02-17 19:20:22.087 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotFoundException(NotFoundException)
+2021-02-17 19:20:22.088 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:20:22.088 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-17T19:20:22.088254200, message=CardIdentity(customerId=FISSA, productId=3)'li Car (truncated)...]
+2021-02-17 19:20:22.090  WARN DESKTOP-EUOD8D0 --- [io-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.northwind.exceptions.NotFoundException: CardIdentity(customerId=FISSA, productId=3)'li Card bulunamadı]
+2021-02-17 19:20:22.090 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-17 19:20:31.473 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/33/7", parameters={}
+2021-02-17 19:20:31.474 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 19:20:31.494 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:20:31.494 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=7)]
+2021-02-17 19:20:31.497 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:20:31.480 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=5) 
+2021-02-17 19:20:31.480 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 4 ms
+2021-02-17 19:20:31.482 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=7) 
+2021-02-17 19:20:31.482 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 1 ms
+2021-02-17 19:27:08.407 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:27:08.408 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:27:08.418 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=5)]
+2021-02-17 19:27:08.479 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=5) 
+2021-02-17 19:27:08.479 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 43 ms
+2021-02-17 19:27:08.486 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:27:08.486 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=5)]
+2021-02-17 19:27:08.489 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:27:14.455 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:27:14.456 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:27:14.459 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=1)]
+2021-02-17 19:27:14.470 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=6) 
+2021-02-17 19:27:14.470 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 7 ms
+2021-02-17 19:27:14.481 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:27:14.482 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=6)]
+2021-02-17 19:27:14.483 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:27:21.094 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:27:21.094 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:27:21.095 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=5)]
+2021-02-17 19:27:21.111 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:27:21.111 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=11)]
+2021-02-17 19:27:21.112 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:27:21.104 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=11) 
+2021-02-17 19:27:21.104 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 8 ms
+2021-02-17 19:27:40.622 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/CENTC", parameters={}
+2021-02-17 19:27:40.623 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 19:27:40.634 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:27:40.634 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=11)]]
+2021-02-17 19:27:40.636 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:27:40.633 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=11)] 
+2021-02-17 19:27:40.633 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 2 ms
+2021-02-17 19:28:01.807 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/FISSA/33/77", parameters={}
+2021-02-17 19:28:01.807 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 19:28:01.814 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:28:01.814 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=77)]
+2021-02-17 19:28:01.815 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:28:01.810 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=7) 
+2021-02-17 19:28:01.810 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 1 ms
+2021-02-17 19:28:01.811 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=77) 
+2021-02-17 19:28:01.811 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 0 ms
+2021-02-17 19:30:47.282 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/FISSA", parameters={}
+2021-02-17 19:30:47.285 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-17 19:30:47.325 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=FISSA, productId=23), quantity=3), Card(id=CardIdentity(customerId=FISSA, productId=33), quantity=77)] 
+2021-02-17 19:30:47.325 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 5 ms
+2021-02-17 19:30:47.329 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=23, productName=Tunnbröd, categoryId=5, unitPrice=9.0, quantityPerUnit=12 - 250 g pkgs., discontinued=0) 
+2021-02-17 19:30:47.330 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 5 ms
+2021-02-17 19:30:47.332 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=33, productName=Geitost, categoryId=4, unitPrice=2.5, quantityPerUnit=500 g, discontinued=0) 
+2021-02-17 19:30:47.332 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 2 ms
+2021-02-17 19:30:47.349 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=178, productId=23), unitPrice=11.0, quantity=3, discount=12345) 
+2021-02-17 19:30:47.349 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 16 ms
+2021-02-17 19:30:47.351 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=178, productId=33), unitPrice=2.5, quantity=77, discount=12345) 
+2021-02-17 19:30:47.351 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 2 ms
+2021-02-17 19:30:47.356 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 19:30:47.356 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 5 ms
+2021-02-17 19:30:47.357 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 19:30:47.357 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 61 ms
+2021-02-17 19:30:47.369 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:30:47.369 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 19:30:47.370 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:48:36.892 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:48:36.892 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:48:36.894 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=5)]
+2021-02-17 19:48:36.903 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:48:36.904 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=16)]
+2021-02-17 19:48:36.904 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:48:36.900 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=16) 
+2021-02-17 19:48:36.900 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 4 ms
+2021-02-17 19:48:46.109 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:48:46.109 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:48:46.110 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=CONSH, productId=21), quantity=5)]
+2021-02-17 19:48:46.119 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:48:46.119 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CONSH, productId=21), quantity=5)]
+2021-02-17 19:48:46.121 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:48:46.115 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CONSH, productId=21), quantity=5) 
+2021-02-17 19:48:46.115 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 3 ms
+2021-02-17 19:58:01.818 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:58:01.819 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:58:01.821 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=5)]
+2021-02-17 19:58:01.891 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=5) 
+2021-02-17 19:58:01.891 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 66 ms
+2021-02-17 19:58:01.898 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:58:01.899 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=5)]
+2021-02-17 19:58:01.900 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:58:14.408 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:58:14.408 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:58:14.409 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=1)]
+2021-02-17 19:58:14.420 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=6) 
+2021-02-17 19:58:14.420 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 5 ms
+2021-02-17 19:58:14.423 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:58:14.423 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=6)]
+2021-02-17 19:58:14.424 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:58:19.910 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 19:58:19.914 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 19:58:19.915 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=5)]
+2021-02-17 19:58:19.957 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=11) 
+2021-02-17 19:58:19.957 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 31 ms
+2021-02-17 19:58:19.960 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:58:19.960 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=11)]
+2021-02-17 19:58:19.961 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:58:37.809 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/CONSH", parameters={}
+2021-02-17 19:58:37.809 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 19:58:37.814 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:58:37.814 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=16), Card(id=CardIdentity(customerId (truncated)...]
+2021-02-17 19:58:37.816 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 19:58:37.813 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=16), Card(id=CardIdentity(customerId=CONSH, productId=21), quantity=5)] 
+2021-02-17 19:58:37.813 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 2 ms
+2021-02-17 19:58:55.146 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/CENTC/33/77", parameters={}
+2021-02-17 19:58:55.146 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 19:58:55.153 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=11) 
+2021-02-17 19:58:55.153 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 3 ms
+2021-02-17 19:58:55.155 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=77) 
+2021-02-17 19:58:55.155 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 1 ms
+2021-02-17 19:58:55.158 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 19:58:55.158 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=77)]
+2021-02-17 19:58:55.160 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:02:05.757 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/CONSH", parameters={}
+2021-02-17 20:02:05.757 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-17 20:02:05.765 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=CONSH, productId=33), quantity=16), Card(id=CardIdentity(customerId=CONSH, productId=21), quantity=5)] 
+2021-02-17 20:02:05.765 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 3 ms
+2021-02-17 20:02:05.768 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=33, productName=Geitost, categoryId=4, unitPrice=2.5, quantityPerUnit=500 g, discontinued=0) 
+2021-02-17 20:02:05.768 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 3 ms
+2021-02-17 20:02:05.771 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=21, productName=Sir Rodney's Scones, categoryId=3, unitPrice=10.0, quantityPerUnit=24 pkgs. x 4 pieces, discontinued=0) 
+2021-02-17 20:02:05.771 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 2 ms
+2021-02-17 20:02:05.773 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=179, productId=33), unitPrice=3.5, quantity=16, discount=12345) 
+2021-02-17 20:02:05.773 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 2 ms
+2021-02-17 20:02:05.775 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=179, productId=21), unitPrice=10.0, quantity=5, discount=12345) 
+2021-02-17 20:02:05.775 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 2 ms
+2021-02-17 20:02:05.780 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 20:02:05.780 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 5 ms
+2021-02-17 20:02:05.780 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 20:02:05.780 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 20 ms
+2021-02-17 20:02:05.788 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:02:05.789 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 20:02:05.789 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:05:02.216 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 20:05:02.218 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 20:05:02.218 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=5)]
+2021-02-17 20:05:02.226 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=16) 
+2021-02-17 20:05:02.226 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 6 ms
+2021-02-17 20:05:02.230 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:05:02.230 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=16)]
+2021-02-17 20:05:02.232 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:05:06.308 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 20:05:06.308 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 20:05:06.309 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FAMIA, productId=13), quantity=5)]
+2021-02-17 20:05:06.315 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:05:06.316 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FAMIA, productId=13), quantity=5)]
+2021-02-17 20:05:06.317 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:05:06.313 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FAMIA, productId=13), quantity=5) 
+2021-02-17 20:05:06.313 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-7] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 3 ms
+2021-02-17 20:05:11.928 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 20:05:11.928 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 20:05:11.940 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=FAMIA, productId=45), quantity=5)]
+2021-02-17 20:05:11.943 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=FAMIA, productId=45), quantity=5) 
+2021-02-17 20:05:11.943 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 3 ms
+2021-02-17 20:05:11.946 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:05:11.946 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=FAMIA, productId=45), quantity=5)]
+2021-02-17 20:05:11.947 DEBUG DESKTOP-EUOD8D0 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:15:56.555 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 20:15:56.557 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 20:15:56.559 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=AWDG, productId=45), quantity=5)]
+2021-02-17 20:15:56.566 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=AWDG, productId=45), quantity=5) 
+2021-02-17 20:15:56.566 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 5 ms
+2021-02-17 20:15:56.579 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.h.e.j.s.SqlExceptionHelper             : HATA (ERROR): "cards" tablosu üzende işlem "fk_cards_customers" foreign key constrainti ihlal ediyor
+  Ayrıntı: "customers" tablosunda (customer_id)=(AWDG) anahtarı mevcut değildir.
+2021-02-17 20:15:56.594 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleDataIntegrityViolationException(DataIntegrityViolationException)
+2021-02-17 20:15:56.599 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:15:56.600 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-17T20:15:56.595776700, message=:  customers  tablosunda (customer_id)=(AWDG) anah (truncated)...]
+2021-02-17 20:15:56.604  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-02-17 20:15:56.605 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 409 CONFLICT
+2021-02-17 20:16:11.713 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 20:16:11.714 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 20:16:11.715 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=5)]
+2021-02-17 20:16:11.721 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=5) 
+2021-02-17 20:16:11.721 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 5 ms
+2021-02-17 20:16:11.724 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:16:11.725 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=5)]
+2021-02-17 20:16:11.726 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:16:18.188 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 20:16:18.188 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 20:16:18.195 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=1)]
+2021-02-17 20:16:18.204 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:16:18.204 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=6)]
+2021-02-17 20:16:18.206 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:16:18.202 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=6) 
+2021-02-17 20:16:18.202 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 4 ms
+2021-02-17 20:16:23.454 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : POST "/api/v1/cards", parameters={}
+2021-02-17 20:16:23.455 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#save(Card)
+2021-02-17 20:16:23.457 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=5)]
+2021-02-17 20:16:23.467 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=11) 
+2021-02-17 20:16:23.469 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:16:23.469 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=EASTC, productId=45), quantity=11)]
+2021-02-17 20:16:23.471 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:16:23.467 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.save () execution time : 8 ms
+2021-02-17 20:16:42.073 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/FAMIA", parameters={}
+2021-02-17 20:16:42.073 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-17 20:16:42.084 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:16:42.084 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=16), Card(id=CardIdentity(customerId (truncated)...]
+2021-02-17 20:16:42.085 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:16:42.083 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=16), Card(id=CardIdentity(customerId=FAMIA, productId=13), quantity=5), Card(id=CardIdentity(customerId=FAMIA, productId=45), quantity=5)] 
+2021-02-17 20:16:42.083 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-6] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 2 ms
+2021-02-17 20:17:00.522 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : PUT "/api/v1/cards/CENTC/33/177", parameters={}
+2021-02-17 20:17:00.523 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#changeQuantity(int, String, int)
+2021-02-17 20:17:00.529 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:17:00.530 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=177)]
+2021-02-17 20:17:00.531 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-17 20:17:00.526 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=77) 
+2021-02-17 20:17:00.526 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardById () execution time : 1 ms
+2021-02-17 20:17:00.527 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method Return value : Card(id=CardIdentity(customerId=CENTC, productId=33), quantity=177) 
+2021-02-17 20:17:00.527 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.update () execution time : 0 ms
+2021-02-17 20:20:27.373 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/FAMIA", parameters={}
+2021-02-17 20:20:27.374 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-17 20:20:27.380 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : [Card(id=CardIdentity(customerId=FAMIA, productId=21), quantity=16), Card(id=CardIdentity(customerId=FAMIA, productId=13), quantity=5), Card(id=CardIdentity(customerId=FAMIA, productId=45), quantity=5)] 
+2021-02-17 20:20:27.380 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 2 ms
+2021-02-17 20:20:27.382 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=21, productName=Sir Rodney's Scones, categoryId=3, unitPrice=10.0, quantityPerUnit=24 pkgs. x 4 pieces, discontinued=0) 
+2021-02-17 20:20:27.382 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 2 ms
+2021-02-17 20:20:27.384 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=13, productName=Konbu, categoryId=8, unitPrice=6.0, quantityPerUnit=2 kg box, discontinued=0) 
+2021-02-17 20:20:27.384 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 2 ms
+2021-02-17 20:20:27.386 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : Product(id=45, productName=Rogede sild, categoryId=8, unitPrice=9.5, quantityPerUnit=1k pkg., discontinued=0) 
+2021-02-17 20:20:27.386 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.ProductManager.findById () execution time : 2 ms
+2021-02-17 20:20:27.388 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=180, productId=21), unitPrice=11.0, quantity=16, discount=12345) 
+2021-02-17 20:20:27.388 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 2 ms
+2021-02-17 20:20:27.390 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=180, productId=13), unitPrice=9.0, quantity=5, discount=12345) 
+2021-02-17 20:20:27.390 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 2 ms
+2021-02-17 20:20:27.392 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : OrderDetail(id=OrderDetailIdentity(orderId=180, productId=45), unitPrice=12.5, quantity=5, discount=12345) 
+2021-02-17 20:20:27.393 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderDetailManager.save () execution time : 3 ms
+2021-02-17 20:20:27.403 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 20:20:27.403 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 10 ms
+2021-02-17 20:20:27.403 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method Return value : null 
+2021-02-17 20:20:27.403 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.b.c.LoggingHandler                 : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 27 ms
+2021-02-17 20:20:27.416 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-17 20:20:27.416 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-17 20:20:27.416 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK

@@ -1,0 +1,608 @@
+2021-02-13 18:35:21.522  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 15612 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 18:35:21.532 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 18:35:21.533  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 18:35:21.592  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 18:35:21.593  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 18:35:22.779  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 18:35:22.928  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 5 JPA repository interfaces.
+2021-02-13 18:35:23.834  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 18:35:23.844  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:35:23.844  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 18:35:23.845  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 18:35:23.937  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 18:35:23.938  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2343 ms
+2021-02-13 18:35:24.012  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 18:35:24.325  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 18:35:24.336  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 18:35:25.760  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 18:35:25.819  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 18:35:26.561  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 18:35:26.762  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:35:26.792 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 18:35:26.889 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 18:35:26.948 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 18:35:26.961 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 18:35:27.203  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:35:27.777  WARN DESKTOP-EUOD8D0 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-02-13 18:35:27.791  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:35:27.791  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 18:35:27.794  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-02-13 18:35:27.806  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-02-13 18:35:27.809  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:35:27.810  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2021-02-13 18:35:27.816  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:35:27.817  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:35:27.830  INFO DESKTOP-EUOD8D0 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-13 18:35:27.854 ERROR DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-02-13 18:42:34.226  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 12612 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 18:42:34.232 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 18:42:34.233  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 18:42:34.280  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 18:42:34.281  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 18:42:34.968  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 18:42:35.049  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2021-02-13 18:42:35.835  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 18:42:35.845  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:42:35.846  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 18:42:35.846  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 18:42:35.943  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 18:42:35.943  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1661 ms
+2021-02-13 18:42:36.004  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 18:42:36.237  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 18:42:36.243  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 18:42:37.551  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 18:42:37.618  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 18:42:38.295  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 18:42:38.479  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:42:38.498 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 18:42:38.583 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 18:42:38.643 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 18:42:38.659 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 18:42:38.846  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:42:39.376  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 18:42:39.388  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 5.603 seconds (JVM running for 8.143)
+2021-02-13 18:47:17.513  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 18:47:17.515  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 18:47:17.516 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 18:47:17.518 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 18:47:17.520 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 18:47:17.523 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@495fd9fd
+2021-02-13 18:47:17.524 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5235bd18
+2021-02-13 18:47:17.525 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 18:47:17.525  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed initialization in 9 ms
+2021-02-13 18:47:17.534 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : GET "/favicon.ico", parameters={}
+2021-02-13 18:47:17.556 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2021-02-13 18:47:17.569 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-02-13 18:47:17.572 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-13 18:47:17.579 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for GET "/error", parameters={}
+2021-02-13 18:47:17.584 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-02-13 18:47:17.645 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 18:47:17.649 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Feb 13 18:47:17 EET 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-02-13 18:47:17.735 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 404
+2021-02-13 18:47:40.993 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/DUMON", parameters={}
+2021-02-13 18:47:40.994 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-13 18:47:41.339 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method Return value : null
+2021-02-13 18:47:41.340 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 306 ms
+2021-02-13 18:47:41.443 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method Return value : []
+2021-02-13 18:47:41.443 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 5 ms
+2021-02-13 18:47:41.446 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method Return value : null
+2021-02-13 18:47:41.446 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 429 ms
+2021-02-13 18:47:41.449 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 18:47:41.450 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-13 18:47:41.451 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-13 18:48:52.378  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 9344 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 18:48:52.384 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 18:48:52.385  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 18:48:52.433  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 18:48:52.434  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 18:48:53.112  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 18:48:53.193  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2021-02-13 18:48:53.973  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 18:48:53.987  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:48:53.988  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 18:48:53.989  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 18:48:54.104  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 18:48:54.104  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1669 ms
+2021-02-13 18:48:54.166  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 18:48:54.391  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 18:48:54.399  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 18:48:55.849  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 18:48:55.909  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 18:48:56.586  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 18:48:56.782  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:48:56.808 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 18:48:56.887 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 18:48:56.946 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 18:48:56.971 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 18:48:57.160  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:48:57.674  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 18:48:57.684  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 5.751 seconds (JVM running for 8.563)
+2021-02-13 18:49:04.412  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 18:49:04.412  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 18:49:04.412 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 18:49:04.412 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 18:49:04.412 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 18:49:04.416 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@70d5feee
+2021-02-13 18:49:04.417 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@15c514ba
+2021-02-13 18:49:04.421 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 18:49:04.425  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 12 ms
+2021-02-13 18:49:04.440 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/DUMON", parameters={}
+2021-02-13 18:49:04.446 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-13 18:49:04.771 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method Return value : null
+2021-02-13 18:49:04.771 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 264 ms
+2021-02-13 18:49:04.862 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method Return value : []
+2021-02-13 18:49:04.862 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 5 ms
+2021-02-13 18:49:04.865 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method Return value : null
+2021-02-13 18:49:04.866 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.OrderManager.order () execution time : 379 ms
+2021-02-13 18:49:04.890 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 18:49:04.891 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-13 18:49:04.893 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-13 18:50:26.162 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/BERGS", parameters={}
+2021-02-13 18:50:26.164 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-13 18:50:26.171 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 18:50:26.171 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-02-13 18:50:26.171 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-13 18:50:26.170 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.c.LoggingHandler                   : Method Return value : null
+2021-02-13 18:50:26.170 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-5] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 3 ms
+2021-02-13 18:53:06.238 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/products/34567", parameters={}
+2021-02-13 18:53:06.238 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.ProductsController#delete(int)
+2021-02-13 18:53:06.269 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.c.LoggingHandler                   : An exception has been thrown in findById ()
+2021-02-13 18:53:06.269 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-8] c.e.n.c.LoggingHandler                   : Cause : com.example.northwind.exceptions.NotFoundException: 34567'li Product bulunamadı
+2021-02-13 18:53:06.270 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotFoundException(NotFoundException)
+2021-02-13 18:53:06.287 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 18:53:06.289 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-13T18:53:06.276050100, message=34567'li Product bulunamadı}]
+2021-02-13 18:53:06.335  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.reflect.UndeclaredThrowableException]
+2021-02-13 18:53:06.337 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-13 18:54:49.002 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/ALFKI", parameters={}
+2021-02-13 18:54:49.003 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-13 18:54:49.008 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Method Return value : []
+2021-02-13 18:54:49.008 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 1 ms
+2021-02-13 18:54:49.015 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 18:54:49.015 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2021-02-13 18:54:49.018 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-13 18:58:16.945  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 3472 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 18:58:16.958 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 18:58:16.959  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 18:58:17.046  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 18:58:17.047  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 18:58:18.727  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 18:58:18.987  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 241 ms. Found 5 JPA repository interfaces.
+2021-02-13 18:58:20.702  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 18:58:20.722  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:58:20.726  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 18:58:20.728  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 18:58:20.963  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 18:58:20.964  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3915 ms
+2021-02-13 18:58:21.185  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 18:58:21.481  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 18:58:21.495  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 18:58:23.734  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 18:58:23.879  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 18:58:25.142  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 18:58:25.490  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:58:25.533 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 18:58:25.667 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 18:58:25.807 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 18:58:25.831 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 18:58:26.158  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 18:58:27.264  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 18:58:27.284  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 11.513 seconds (JVM running for 16.56)
+2021-02-13 19:03:11.333  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 16972 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 19:03:11.340 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 19:03:11.341  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 19:03:11.389  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 19:03:11.389  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 19:03:12.212  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 19:03:12.290  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
+2021-02-13 19:03:13.043  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 19:03:13.051  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:03:13.052  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 19:03:13.052  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 19:03:13.138  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 19:03:13.138  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1747 ms
+2021-02-13 19:03:13.196  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 19:03:13.381  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 19:03:13.387  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 19:03:14.645  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 19:03:14.710  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 19:03:15.349  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 19:03:15.534  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 19:03:15.553 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 19:03:15.620 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 19:03:15.678 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 19:03:15.693 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 19:03:15.866  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:03:16.379  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 19:03:16.389  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 5.521 seconds (JVM running for 8.188)
+2021-02-13 19:03:22.351  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 19:03:22.351  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 19:03:22.352 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 19:03:22.352 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 19:03:22.354 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 19:03:22.358 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@664badf4
+2021-02-13 19:03:22.359 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@68e5479c
+2021-02-13 19:03:22.360 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 19:03:22.360  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2021-02-13 19:03:22.376 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : GET "/api/v1/cardsbycustomer/ALFKI", parameters={}
+2021-02-13 19:03:22.384 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#getCardsByCustomer(String)
+2021-02-13 19:03:22.813 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Method Return value : []
+2021-02-13 19:03:22.813 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.getCardsByCustomer () execution time : 352 ms
+2021-02-13 19:03:22.844 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 19:03:22.845 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2021-02-13 19:03:22.880 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-13 19:07:02.722  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 13820 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 19:07:02.731 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 19:07:02.732  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 19:07:02.798  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 19:07:02.799  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 19:07:03.652  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 19:07:03.762  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 5 JPA repository interfaces.
+2021-02-13 19:07:04.684  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 19:07:04.693  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:07:04.694  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 19:07:04.694  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 19:07:04.798  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 19:07:04.799  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1998 ms
+2021-02-13 19:07:04.881  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 19:07:05.160  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 19:07:05.174  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 19:07:06.420  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 19:07:06.531  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 19:07:07.460  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 19:07:07.674  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 19:07:07.703 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 19:07:07.776 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 19:07:07.853 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 19:07:07.870 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 19:07:08.106  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:07:08.722  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 19:07:08.733  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 6.475 seconds (JVM running for 9.414)
+2021-02-13 19:07:44.020  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 19:07:44.021  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 19:07:44.021 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 19:07:44.021 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 19:07:44.022 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 19:07:44.023 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6edd3a65
+2021-02-13 19:07:44.024 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1c2a4888
+2021-02-13 19:07:44.024 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 19:07:44.028  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms
+2021-02-13 19:07:44.042 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/BERGS", parameters={}
+2021-02-13 19:07:44.046 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-13 19:07:44.397 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Method Return value : []
+2021-02-13 19:07:44.397 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Method com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer () execution time : 291 ms
+2021-02-13 19:07:44.428 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 19:07:44.429 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2021-02-13 19:07:44.473 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2021-02-13 19:19:45.133  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 2260 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 19:19:45.143 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 19:19:45.144  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 19:19:45.209  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 19:19:45.210  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 19:19:46.094  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 19:19:46.231  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 5 JPA repository interfaces.
+2021-02-13 19:19:47.290  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 19:19:47.299  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:19:47.299  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 19:19:47.300  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 19:19:47.407  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 19:19:47.407  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2195 ms
+2021-02-13 19:19:47.479  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 19:19:47.718  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 19:19:47.726  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 19:19:48.976  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 19:19:49.054  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 19:19:49.840  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 19:19:50.062  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 19:19:50.088 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 19:19:50.160 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 19:19:50.237 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 19:19:50.258 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 19:19:50.529  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:19:51.144  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 19:19:51.156  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 6.51 seconds (JVM running for 9.235)
+2021-02-13 19:20:07.198  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 19:20:07.199  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 19:20:07.199 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 19:20:07.199 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 19:20:07.199 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 19:20:07.201 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4821b79e
+2021-02-13 19:20:07.202 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6ff728db
+2021-02-13 19:20:07.202 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 19:20:07.202  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2021-02-13 19:20:07.219 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/BERGS", parameters={}
+2021-02-13 19:20:07.230 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-13 19:20:07.660 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : An exception has been thrown in deleteCardsByCustomer ()
+2021-02-13 19:20:07.660 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Cause : null
+2021-02-13 19:20:07.667 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Failed to complete request: com.example.northwind.exceptions.NotExistByPropertyExeption: FFFF özellikli DDDD bulunamadı
+2021-02-13 19:20:07.672 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.example.northwind.exceptions.NotExistByPropertyExeption: FFFF özellikli DDDD bulunamadı] with root cause
+com.example.northwind.exceptions.NotExistByPropertyExeption: FFFF özellikli DDDD bulunamadı
+	at com.example.northwind.business.concretes.CardManager.lambda$deleteCardsByCustomer$1(CardManager.java:70)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:401)
+	at com.example.northwind.business.concretes.CardManager.deleteCardsByCustomer(CardManager.java:70)
+	at com.example.northwind.business.concretes.CardManager$$FastClassBySpringCGLIB$$1de08fa1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at LoggingHandler.logAround(LoggingHandler.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.example.northwind.business.concretes.CardManager$$EnhancerBySpringCGLIB$$bc9843f7.deleteCardsByCustomer(<generated>)
+	at com.example.northwind.api.controllers.CardController.deleteCardsByCustomer(CardController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2021-02-13 19:20:07.692 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for DELETE "/error", parameters={}
+2021-02-13 19:20:07.696 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-02-13 19:20:07.741 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 19:20:07.743 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Feb 13 19:20:07 EET 2021, status=500, error=Internal Server Error, trace=com.example. (truncated)...]
+2021-02-13 19:20:07.826 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 500
+2021-02-13 19:21:23.393  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 7752 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 19:21:23.401 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 19:21:23.402  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 19:21:23.453  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 19:21:23.454  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 19:21:24.293  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 19:21:24.390  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+2021-02-13 19:21:25.320  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 19:21:25.336  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:21:25.336  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 19:21:25.338  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 19:21:25.472  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 19:21:25.473  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2019 ms
+2021-02-13 19:21:25.555  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 19:21:25.832  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 19:21:25.842  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 19:21:27.127  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 19:21:27.216  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 19:21:28.365  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 19:21:28.653  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 19:21:28.685 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 19:21:28.773 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 19:21:28.854 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 19:21:28.881 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 19:21:29.181  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:21:29.923  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 19:21:29.936  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 7.027 seconds (JVM running for 9.669)
+2021-02-13 19:22:32.572  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 1956 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 19:22:32.583 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 19:22:32.585  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 19:22:32.656  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 19:22:32.658  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 19:22:33.515  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 19:22:33.651  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 5 JPA repository interfaces.
+2021-02-13 19:22:34.971  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 19:22:34.984  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:22:34.985  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 19:22:34.986  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 19:22:35.129  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 19:22:35.130  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2471 ms
+2021-02-13 19:22:35.239  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 19:22:35.527  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 19:22:35.536  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 19:22:36.991  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 19:22:37.080  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 19:22:38.395  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 19:22:38.800  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 19:22:38.841 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 19:22:38.976 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 19:22:39.096 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 19:22:39.120 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 19:22:39.369  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:22:39.987  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 19:22:39.998  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 8.043 seconds (JVM running for 11.011)
+2021-02-13 19:22:44.652  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 19:22:44.652  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 19:22:44.652 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 19:22:44.652 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 19:22:44.652 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 19:22:44.654 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1bc00b2b
+2021-02-13 19:22:44.654 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@54d7792d
+2021-02-13 19:22:44.654 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 19:22:44.655  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2021-02-13 19:22:44.677 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/BERGS", parameters={}
+2021-02-13 19:22:44.687 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-13 19:22:45.098 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : An exception has been thrown in deleteCardsByCustomer ()
+2021-02-13 19:22:45.098 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Cause : null
+2021-02-13 19:22:45.103 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotExistByPropertyExeption(NotExistByPropertyExeption)
+2021-02-13 19:22:45.139 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 19:22:45.140 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-13T19:22:45.110270200, message=FFFF özellikli DDDD bulunamadı}]
+2021-02-13 19:22:45.181  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.northwind.exceptions.NotExistByPropertyExeption: FFFF özellikli DDDD bulunamadı]
+2021-02-13 19:22:45.184 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-13 19:23:25.865  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 1964 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 19:23:25.872 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 19:23:25.874  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 19:23:25.936  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 19:23:25.937  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 19:23:26.742  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 19:23:26.865  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 5 JPA repository interfaces.
+2021-02-13 19:23:27.781  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 19:23:27.792  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:23:27.793  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 19:23:27.794  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 19:23:27.922  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 19:23:27.922  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1984 ms
+2021-02-13 19:23:28.002  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 19:23:28.301  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 19:23:28.314  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 19:23:29.762  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 19:23:29.856  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 19:23:30.745  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 19:23:31.103  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 19:23:31.136 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 19:23:31.261 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 19:23:31.409 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 19:23:31.447 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 19:23:31.678  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 19:23:32.291  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 19:23:32.303  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 6.98 seconds (JVM running for 9.715)
+2021-02-13 19:23:55.611  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 19:23:55.612  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 19:23:55.613 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 19:23:55.613 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 19:23:55.613 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 19:23:55.617 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7088749
+2021-02-13 19:23:55.618 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@31e9cdc
+2021-02-13 19:23:55.619 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 19:23:55.619  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2021-02-13 19:23:55.639 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/BERGS", parameters={}
+2021-02-13 19:23:55.650 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-13 19:23:56.034 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : An exception has been thrown in deleteCardsByCustomer ()
+2021-02-13 19:23:56.035 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-1] c.e.n.c.LoggingHandler                   : Cause : null
+2021-02-13 19:23:56.044 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotExistByPropertyExeption(NotExistByPropertyExeption)
+2021-02-13 19:23:56.166 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 19:23:56.168 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-13T19:23:56.055665500, message=ffff özellikli ddd bulunamadı}]
+2021-02-13 19:23:56.256  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.northwind.exceptions.NotExistByPropertyExeption: ffff özellikli ddd bulunamadı]
+2021-02-13 19:23:56.262 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-13 20:15:13.469  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Starting NorthwindApplication using Java 13.0.2 on DESKTOP-EUOD8D0 with PID 2444 (C:\Users\asus\Desktop\JAVAA\northwind-23\target\classes started by asus in C:\Users\asus\Desktop\JAVAA\northwind-23)
+2021-02-13 20:15:13.476 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-02-13 20:15:13.477  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : No active profile set, falling back to default profiles: default
+2021-02-13 20:15:13.527  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 20:15:13.528  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 20:15:14.294  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 20:15:14.377  INFO DESKTOP-EUOD8D0 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 5 JPA repository interfaces.
+2021-02-13 20:15:15.261  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 20:15:15.269  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-13 20:15:15.270  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-13 20:15:15.270  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 20:15:15.362  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-13 20:15:15.362  INFO DESKTOP-EUOD8D0 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1833 ms
+2021-02-13 20:15:15.424  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-13 20:15:15.596  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-13 20:15:15.603  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Northwind'
+2021-02-13 20:15:16.907  INFO DESKTOP-EUOD8D0 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 20:15:16.971  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 20:15:17.691  WARN DESKTOP-EUOD8D0 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 20:15:17.874  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 20:15:17.896 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-13 20:15:17.969 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 22 mappings in 'requestMappingHandlerMapping'
+2021-02-13 20:15:18.078 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-13 20:15:18.095 DEBUG DESKTOP-EUOD8D0 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-13 20:15:18.296  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-13 20:15:18.808  INFO DESKTOP-EUOD8D0 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 20:15:18.818  INFO DESKTOP-EUOD8D0 --- [  restartedMain] c.e.n.NorthwindApplication               : Started NorthwindApplication in 5.789 seconds (JVM running for 8.124)
+2021-02-13 20:15:29.993  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 20:15:29.993  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-13 20:15:29.993 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2021-02-13 20:15:29.993 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2021-02-13 20:15:29.994 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2021-02-13 20:15:29.995 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7b61af50
+2021-02-13 20:15:29.995 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@16c25189
+2021-02-13 20:15:29.996 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-13 20:15:29.996  INFO DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2021-02-13 20:15:30.003 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : DELETE "/api/v1/cards/BERGS", parameters={}
+2021-02-13 20:15:30.011 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.CardController#deleteCardsByCustomer(String)
+2021-02-13 20:15:30.261 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : An exception has been thrown in deleteCardsByCustomer ()
+2021-02-13 20:15:30.261 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-2] c.e.n.c.LoggingHandler                   : Cause : null
+2021-02-13 20:15:30.265 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotExistByPropertyExeption(NotExistByPropertyExeption)
+2021-02-13 20:15:30.286 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 20:15:30.287 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-13T20:15:30.268756400, message=BERGS değerindeki customerid özelliğine sahip Prod (truncated)...]
+2021-02-13 20:15:30.309  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.northwind.exceptions.NotExistByPropertyExeption: BERGS değerindeki customerid özelliğine sahip Product bulunamadı]
+2021-02-13 20:15:30.310 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-13 20:15:52.021 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/DUMON", parameters={}
+2021-02-13 20:15:52.023 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-13 20:15:52.040 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotExistByPropertyExeption(NotExistByPropertyExeption)
+2021-02-13 20:15:52.041 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 20:15:52.042 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-13T20:15:52.040578, message=DUMON değerindeki customerid özelliğine sahip Product (truncated)...]
+2021-02-13 20:15:52.038 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.c.LoggingHandler                   : An exception has been thrown in deleteCardsByCustomer ()
+2021-02-13 20:15:52.044  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.northwind.exceptions.NotExistByPropertyExeption: DUMON değerindeki customerid özelliğine sahip Product bulunamadı]
+2021-02-13 20:15:52.038 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.c.LoggingHandler                   : Cause : null
+2021-02-13 20:15:52.039 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.c.LoggingHandler                   : An exception has been thrown in order ()
+2021-02-13 20:15:52.044 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-13 20:15:52.039 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-3] c.e.n.c.LoggingHandler                   : Cause : null
+2021-02-13 20:16:08.079 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : POST "/api/v1/orders/DUMON", parameters={}
+2021-02-13 20:16:08.081 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.northwind.api.controllers.OrderController#order(String)
+2021-02-13 20:16:08.086 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.northwind.exceptions.ControllerAdvisor#handleNotExistByPropertyExeption(NotExistByPropertyExeption)
+2021-02-13 20:16:08.087 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-13 20:16:08.087 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=2021-02-13T20:16:08.086693300, message=DUMON değerindeki customerid özelliğine sahip Prod (truncated)...]
+2021-02-13 20:16:08.089  WARN DESKTOP-EUOD8D0 --- [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.northwind.exceptions.NotExistByPropertyExeption: DUMON değerindeki customerid özelliğine sahip Product bulunamadı]
+2021-02-13 20:16:08.089 DEBUG DESKTOP-EUOD8D0 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2021-02-13 20:16:08.085 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.c.LoggingHandler                   : An exception has been thrown in deleteCardsByCustomer ()
+2021-02-13 20:16:08.085 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.c.LoggingHandler                   : Cause : null
+2021-02-13 20:16:08.086 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.c.LoggingHandler                   : An exception has been thrown in order ()
+2021-02-13 20:16:08.086 ERROR DESKTOP-EUOD8D0 --- [nio-8080-exec-4] c.e.n.c.LoggingHandler                   : Cause : null
